@@ -1,4 +1,4 @@
-#DockTile
+# DockTile
 
 DockTile application demonstrates the use of NSDockTile, and more importantly, the NSDockTilePlugIn protocol introduced in 10.6.   The example includes two pieces:  The DockTile app, and the plug-in, DockTilePlugIn.  Building the target for the app will build and package both together.
 
