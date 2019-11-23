@@ -11,7 +11,7 @@ The whole application source code is implemented in the DockTileAppDelegate clas
 The dock tile plug-in shows off your high score even when the app is not running. The plug-in simply reads the high score from the defaults domain of the app, displays it as a badge on the dock tile, then updates it on receipt of a distributed notification that indicates when the high score changed.
 
 Some notes and things to watch out for:
-⋅⋅*The project has two targets; the DockTileApp target also builds the DockTilePlugIn target, and includes it in the app package.
+⋅⋅* The project has two targets; the DockTileApp target also builds the DockTilePlugIn target, and includes it in the app package.
 ⋅⋅*The plug-in goes inside the Contents/PlugIns folder in the app package. Just the file name goes in the app's Info.plist, as the value of NSDockTilePlugIn.
 \pard\pardeftab720\ql\qnatural
 \cf0 \'95 Remember to build the plug-in 32 and 64 bits.\
